@@ -1,0 +1,8 @@
+inicializar o projeto com:
+npm init -y (vai criar o arquivo package.json para configuração)
+
+rodar algum arquivo js:
+node <nome do arquivo.js>
+
+node na versão 18, foi criado o comando watch para sempre ver qualquer mudança
+node --watch <nome do arquivo.js>
