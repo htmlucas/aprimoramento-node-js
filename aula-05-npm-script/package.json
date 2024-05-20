@@ -1,0 +1,14 @@
+{
+  "name": "aula-05-npm-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "martins": "node src/index.js && mkdir dist && echo \"Pasta criada com sucesso\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
