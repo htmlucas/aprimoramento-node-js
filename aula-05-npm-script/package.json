@@ -5,8 +5,9 @@
   "main": "index.js",
   "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "martins": "node src/index.js && mkdir dist && echo \"Pasta criada com sucesso\" "
+    "prebuild":"npm install",
+    "start:dev": "node src/index.js",
+    "start:watch": "node --watch src/index.js"
   },
   "keywords": [],
   "author": "",
