@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target":"ES6",
+    "module":"CommonJS", // para aumentar a compatibilidade
+    "outDir": "./dist", // passa o diretorio para onde os arquivos transpilados fiquem
+    "strict":true, // verificacoes de declaracao de variavel, tipagem
+    "esModuleInterop": true, //para quando transpilar e/ou gerar o arquivo js, se eu tiver utilizando o esmodules ele tambem funcione commomjs
+    "forceConsistentCasingInFileNames": true,      // diferenciancao do minusculo e maiusculo em nome de arquivos na hora de import
+
+  }
+}

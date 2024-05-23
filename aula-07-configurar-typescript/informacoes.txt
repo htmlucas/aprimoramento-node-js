@@ -1,0 +1,14 @@
+npx tsc src/index.ts (esse comando vai transpilar uma arquivo ts para js manualmente) (não utilizavel, informação apenas para conhecimento)
+
+e logo em seguida o arquivo podera ser lido normalmente com o => comando node src/index.js (não utilizavel, informação apenas para conhecimento)
+
+chamar o npm para inicializar para criar um arquivo de configuracoes
+npx tsc --init
+
+para conseguir rodar arquivos typescript com o node(pq ele só roda arquivos js) existe uma biblioteca para isso(é bom adicionar como pacote de desenvolvimento), 
+antigamente utilizavam o ts-node-dev mas esta a 2 anos sem updates. essa biblioteca é boa pq ele transpila e executa na memoria, ele nao cria pasta igual o npx tsc 
+npm i tsx -D
+
+biblioteca mais performatica para transpilar arquivos em js mais utilizada no momento é o tsup, que vamos utilizar no lugar do "tsc" la quando vamos usar o comando "npx tsc" 
+agora vai ser "tsup <especificando a pasta no qual quero transpilar>" tipo "tsup src"
+npm i tsup -D

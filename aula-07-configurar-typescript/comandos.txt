@@ -1,0 +1,20 @@
+instalar o typescript:
+npm install -D typescript
+
+chamar o npm para inicializar para criar um arquivo de configuracoes do typescript
+npx tsc --init
+
+configurar o arquivo:
+"compilerOptions": {
+    "target":"ES6",
+    "module":"CommonJS", // para aumentar a compatibilidade
+    "outDir": "./dist", // passa o diretorio para onde os arquivos transpilados fiquem
+    "strict":true, // verificacoes de declaracao de variavel, tipagem
+    "esModuleInterop": true //para quando transpilar e/ou gerar o arquivo js, se eu tiver utilizando o esmodules ele tambem funcione commomjs
+
+}
+
+criar o script para rodar o arquivo tsx:
+"scripts": {
+    "start:dev:watch":"tsx watch src/index.ts",
+  },
