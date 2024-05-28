@@ -1,0 +1,24 @@
+{
+  "name": "projeto-gerenciador-podcasts-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start:dev": "tsx src/server.ts",
+    "start:watch": "tsx --watch src/server.ts",
+    "dist": "tsup src",
+    "start:dist":"npm run dist && node/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}
