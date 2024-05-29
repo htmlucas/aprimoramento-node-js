@@ -17,7 +17,9 @@ Podcast feito em video
 Listar os episodios podcasts em sessoes de categorias
 
 ### Como vou implementar:
-vou retornar em uma api rest(json) o nome podcast, nome episodio, imagem de capa, link, category
+GET: Retorna lista de episodios
+
+response:
 
 ```js
     [
@@ -39,3 +41,5 @@ vou retornar em uma api rest(json) o nome podcast, nome episodio, imagem de capa
         }
     ]
 ```
+
+GET: Retorna lista de episodios baseado em um parametro pelo cliente do nome do podcast
